@@ -58,5 +58,5 @@ public sealed partial class CCVars
     ///     Won't work without ICSSDSleep
     /// </summary>
     public static readonly CVarDef<float> ICSSDSleepTime =
-        CVarDef.Create("ic.ssd_sleep_time", 600f, CVar.SERVER);
+        CVarDef.Create("ic.ssd_sleep_time", 60f, CVar.SERVER); ///EXCO: 60f
 }
