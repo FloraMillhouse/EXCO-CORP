@@ -27,7 +27,7 @@ public sealed partial class CCVars
     ///     Maximum number of interactions that a player can perform within <see cref="InteractionRateLimitCount"/> seconds
     /// </summary>
     public static readonly CVarDef<int> InteractionRateLimitCount =
-        CVarDef.Create("interaction.rate_limit_count", 5, CVar.SERVER | CVar.REPLICATED);
+        CVarDef.Create("interaction.rate_limit_count", 4, CVar.SERVER | CVar.REPLICATED); // EXCO: preveting lag.
 
     /// <seealso cref="InteractionRateLimitCount"/>
     public static readonly CVarDef<float> InteractionRateLimitPeriod =
@@ -38,13 +38,13 @@ public sealed partial class CCVars
     ///     value disables admin announcements.
     /// </summary>
     public static readonly CVarDef<int> InteractionRateLimitAnnounceAdminsDelay =
-        CVarDef.Create("interaction.rate_limit_announce_admins_delay", 120, CVar.SERVERONLY);
+        CVarDef.Create("interaction.rate_limit_announce_admins_delay", 60, CVar.SERVERONLY); // EXCO: Alerts admins more often.
 
     /// <summary>
     ///     Whether or not the storage UI is static and bound to the hotbar, or unbound and allowed to be dragged anywhere.
     /// </summary>
     public static readonly CVarDef<bool> StaticStorageUI =
-        CVarDef.Create("control.static_storage_ui", false, CVar.CLIENTONLY | CVar.ARCHIVE); // Frontier: true<false
+        CVarDef.Create("control.static_storage_ui", true, CVar.CLIENTONLY | CVar.ARCHIVE); // EXCO: True, feels more corporate and fits the vibe?
 
     /// <summary>
     ///     Whether or not the storage window uses a transparent or opaque sprite.
@@ -63,7 +63,7 @@ public sealed partial class CCVars
     /// Recommended that you utilise this in conjunction with <see cref="StaticStorageUI"/>
     /// </summary>
     public static readonly CVarDef<int> StorageLimit =
-        CVarDef.Create("control.storage_limit", 3, CVar.REPLICATED | CVar.SERVER); // Frontier: 1<3
+        CVarDef.Create("control.storage_limit", 1, CVar.REPLICATED | CVar.SERVER); // EXCO: 1.
 
     /// <summary>
     /// Whether or not storage can be opened recursively.
