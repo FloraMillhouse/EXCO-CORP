@@ -12,7 +12,9 @@ This is the primary repo for Exco Corp.
 
 ## Contacts
 for any worries about code or anything of the sort, please contact me on one of the following:
+
 Telegramme: FloraMillhouse
+
 Discord: vermin.sound
 
 ## License
