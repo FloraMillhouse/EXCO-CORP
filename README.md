@@ -1,5 +1,4 @@
 <div class="header" align="center">
-![Exco Corp](https://github.com/user-attachments/assets/121f0308-403d-4cb9-a16e-5f48c591d5e2)
 
 Exco Corp is a fork of [Frontier Station](https://frontierstation.wiki.gg/) that runs on [Robust Toolbox](https://github.com/space-wizards/RobustToolbox) engine written in C#.
 
@@ -10,6 +9,11 @@ This is the primary repo for Exco Corp.
 <div class="header" align="center">
 
 [Discord](https://discord.gg/B3PzW2s5er)
+
+## Contacts
+for any worries about code or anything of the sort, please contact me on one of the following:
+Telegramme: FloraMillhouse
+Discord: vermin.sound
 
 ## License
 Most assets are licensed under CC-BY-SA 3.0 unless stated otherwise. Assets have their license and the copyright in the metadata file. Example.
