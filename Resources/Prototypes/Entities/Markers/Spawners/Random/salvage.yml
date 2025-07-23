@@ -56,6 +56,7 @@
       - WeaponCrusherDagger
       - WeaponCrusherGlaive
       - MiningDrill
+      - Chainsaw #EXCO
       offset: 0.0
 
 - type: entity
